@@ -1,0 +1,30 @@
+.theme-toggle {
+  position: absolute;
+  right: 0.8rem; // отступ справа
+  top: 12rem; // немного ниже header
+  width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 1px solid var(--color-border);
+  color: var(--main-color);
+  cursor: pointer;
+  transition: var(--transition);
+
+  @media (max-width: 768px) {
+    top: 10rem; // чуть выше на мобильных устройствах
+    right: -1rem; // меньше отступ справа на мобильных устройствах
+  }
+}
+
+.theme-toggle:hover {
+  background-color: var(--color-surface);
+  transform: rotate(180deg);
+}
+
+.theme-toggle:active {
+  transform: scale(0.98);
+}

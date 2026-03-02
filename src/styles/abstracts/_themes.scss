@@ -1,0 +1,35 @@
+/* ===========================
+   THEMES
+   =========================== */
+
+/* DARK (default) */
+:root {
+  --brand: #e6c8a9;
+  --accent: #3357ff;
+
+  --bg: #2d2113;
+  --surface: #1f150b;
+  --text: #e8e8e8;
+  --text-2: #d7d7d7;
+  --muted: #b7b7b7;
+  --muted-2: #9a9a9a;
+  --border: rgba(255, 255, 255, 0.12);
+
+  color-scheme: dark;
+}
+
+/* LIGHT */
+html[data-theme="light"] {
+  --brand: #2d2113;
+  --accent: #000e40;
+
+  --bg: #ffffff;
+  --surface: #f7f7f7;
+  --text: #222222;
+  --text-2: #333333;
+  --muted: #666666;
+  --muted-2: #888888;
+  --border: rgba(0, 0, 0, 0.12);
+
+  color-scheme: light;
+}

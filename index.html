@@ -1,0 +1,932 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Shop</title>
+
+    <!-- icon link  -->
+    <link rel="icon" type="image/svg+xml" href="public/img/Coffee Shop.svg" />
+
+    <!-- Styles are bundled by Vite -->
+
+    <!-- font link  -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- fontawesome link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- swiper link css  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body class="website">
+    <!-- navbar start  -->
+
+    <nav>
+      <div class="nav-container">
+        <div class="nav-box">
+          <div class="nav-logo">
+            <a href="#">Coffee Shop</a>
+          </div>
+          <div class="nav-links" id="navbar">
+            <ul>
+              <li class="active">
+                <a href="#home" class="nav-item">
+                  <i class="fa-solid fa-house-chimney"></i>
+                  <span>Главная</span>
+                </a>
+              </li>
+              <li>
+                <a href="#products" class="nav-item">
+                  <i class="fa-solid fa-mug-saucer"></i>
+                  <span>Продукты</span>
+                </a>
+              </li>
+              <li>
+                <a href="#categories" class="nav-item">
+                  <i class="fa-solid fa-layer-group"></i>
+                  <span>Категории</span>
+                </a>
+              </li>
+              <li>
+                <a href="#why_us" class="nav-item">
+                  <i class="fa-solid fa-message"></i>
+                  <span>Почему мы</span>
+                </a>
+              </li>
+              <li>
+                <a href="#reviews" class="nav-item">
+                  <i class="fa-solid fa-quote-left"></i>
+                  <span>Отзывы</span>
+                </a>
+              </li>
+              <li>
+                <a href="#blog" class="nav-item">
+                  <i class="fa-solid fa-blog"></i>
+                  <span>Блог</span>
+                </a>
+              </li>
+              <li>
+                <a href="#contact" class="nav-item">
+                  <i class="fa-solid fa-circle-info"></i>
+                  <span>Контакт</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="nav-actions">
+            <button
+              class="theme-toggle"
+              type="button"
+              aria-label="Toggle theme"
+              title="Toggle theme"
+            >
+              <i class="fa-solid fa-moon"></i>
+            </button>
+            <div class="nav-icon">
+              <i class="fa-solid fa-bars-staggered"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- navbar end  -->
+
+    <!-- home section start  -->
+
+    <section class="home" id="home">
+      <div class="section-container">
+        <div class="home-container">
+          <div class="home-box">
+            <h1>У нас свежий кофе и чай</h1>
+            <p>
+              У нас вы найдете широкий ассортимент свежего кофе и чая, который
+              удовлетворит даже самых требовательных гурманов. Наши продукты
+              отличаются высоким качеством, насыщенным вкусом и ароматом, что
+              делает каждую чашку незабываемой. Независимо от того,
+              предпочитаете ли вы крепкий черный кофе или нежный зеленый чай, у
+              нас есть идеальный выбор для вас. Закажите сейчас и наслаждайтесь
+              лучшими напитками прямо у себя дома!
+            </p>
+            <a href="#contact" class="btn">
+              <span>Заказать сейчас</span>
+            </a>
+          </div>
+
+          <div class="home-box">
+            <div class="swiper home-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="swiper-item">
+                    <img src="/img/home-img-1.png" alt="drinks" />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-item">
+                    <img src="/img/home-img-2.png" alt="drinks" />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-item">
+                    <img src="/img/home-img-3.png" alt="drinks" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-buttons">
+                <div class="fas fa-arrow-left"></div>
+                <div class="fas fa-arrow-right"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- home section end -->
+
+    <!-- features section start  -->
+
+    <section class="features">
+      <div class="section-container grid">
+        <div class="features-item">
+          <div class="features-content">
+            <i class="fa-solid fa-money-check"></i>
+            <h3>Безопасная оплата</h3>
+            <p>
+              У нас вы можете безопасно оплачивать свои заказы с помощью
+              различных методов оплаты. Мы гарантируем защиту ваших данных и
+              безопасность каждой транзакции.
+            </p>
+          </div>
+        </div>
+        <div class="features-item">
+          <div class="features-content">
+            <i class="fa-solid fa-truck"></i>
+            <h3>Бесплатная доставка</h3>
+            <p>
+              У нас вы можете воспользоваться бесплатной доставкой для всех
+              заказов. Мы обеспечиваем быструю и надежную доставку прямо к вашей
+              двери.
+            </p>
+          </div>
+        </div>
+        <div class="features-item">
+          <div class="features-content">
+            <i class="fa-solid fa-award"></i>
+            <h3>100% Гарантия</h3>
+            <p>
+              У нас вы можете быть уверены в качестве наших продуктов. Мы
+              предоставляем 100% гарантию на все наши товары, чтобы вы могли
+              наслаждаться покупками без забот.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- features section end -->
+
+    <!-- products section start  -->
+
+    <div class="products" id="products">
+      <div class="section-container">
+        <div class="section-title">
+          <div class="section-title-icon">
+            <i class="fa-solid fa-mug-saucer"></i>
+          </div>
+          <h3>Наши Продукты</h3>
+        </div>
+
+        <div class="products-items">
+          <div class="product-item">
+            <div class="product-item-head">
+              <img src="/img/p-1.jpg" alt="image" />
+              <span class="price">30 TJS</span>
+            </div>
+            <div class="product-item-body">
+              <h3>Белый кофе</h3>
+              <p>
+                У нас вы найдете широкий ассортимент свежего белого кофе,
+                который удовлетворит даже самых требовательных гурманов. Наши
+                продукты отличаются высоким качеством, насыщенным вкусом и
+                ароматом, что делает каждую чашку незабываемой.
+              </p>
+              <div class="product-item-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <a href="#contact" class="btn">
+                <span>Заказать сейчас</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="product-item-head">
+              <img src="/img/p-2.jpg" alt="image" />
+              <span class="price">28 TJS</span>
+            </div>
+            <div class="product-item-body">
+              <h3>Черный кофе</h3>
+              <p>
+                У нас вы найдете широкий ассортимент свежего черного кофе,
+                который удовлетворит даже самых требовательных гурманов. Наши
+                продукты отличаются высоким качеством, насыщенным вкусом и
+                ароматом, что делает каждую чашку незабываемой.
+              </p>
+              <div class="product-item-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <a href="#contact" class="btn">
+                <span>Заказать сейчас</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="product-item-head">
+              <img src="/img/p-3.jpg" alt="image" />
+              <span class="price">25 TJS</span>
+            </div>
+            <div class="product-item-body">
+              <h3>Молотый кофе</h3>
+              <p>
+                У нас вы найдете широкий ассортимент свежемолотого кофе, который
+                удовлетворит даже самых требовательных гурманов. Наши продукты
+                отличаются высоким качеством, насыщенным вкусом и ароматом, что
+                делает каждую чашку незабываемой.
+              </p>
+              <div class="product-item-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <a href="#contact" class="btn">
+                <span>Заказать сейчас</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="product-item-head">
+              <img src="/img/p-4.jpg" alt="image" />
+              <span class="price">23 TJS</span>
+            </div>
+            <div class="product-item-body">
+              <h3>Фильтрованный кофе</h3>
+              <p>
+                У нас вы найдете широкий ассортимент свежего фильтрованного
+                кофе, который удовлетворит даже самых требовательных гурманов.
+                Наши продукты отличаются высоким качеством, насыщенным вкусом и
+                ароматом, что делает каждую чашку незабываемой.
+              </p>
+              <div class="product-item-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <a href="#contact" class="btn">
+                <span>Заказать сейчас</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="product-item-head">
+              <img src="/img/p-5.jpg" alt="image" />
+              <span class="price">15 TJS</span>
+            </div>
+            <div class="product-item-body">
+              <h3>Чай</h3>
+              <p>
+                У нас вы найдете широкий ассортимент свежего чая, который
+                удовлетворит даже самых требовательных гурманов. Наши продукты
+                отличаются высоким качеством, насыщенным вкусом и ароматом, что
+                делает каждую чашку незабываемой.
+              </p>
+              <div class="product-item-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <a href="#contact" class="btn">
+                <span>Заказать сейчас</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="product-item-head">
+              <img src="/img/p-6.jpg" alt="image" />
+              <span class="price">18 TJS</span>
+            </div>
+            <div class="product-item-body">
+              <h3>Кофейные зерна</h3>
+              <p>
+                У нас вы найдете широкий ассортимент свежих кофейных зерен,
+                который удовлетворит даже самых требовательных гурманов. Наши
+                продукты отличаются высоким качеством, насыщенным вкусом и
+                ароматом, что делает каждую чашку незабываемой.
+              </p>
+              <div class="product-item-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <a href="#contact" class="btn">
+                <span>Заказать сейчас</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- products section end -->
+
+    <!-- categories section start  -->
+
+    <section class="categories" id="categories">
+      <div class="section-container">
+        <div class="section-title">
+          <div class="section-title-icon">
+            <i class="fa-solid fa-layer-group"></i>
+          </div>
+          <h3>Наши Категории</h3>
+        </div>
+
+        <div class="tabs">
+          <div class="tabs-controls">
+            <div class="tabs-item tabs-item-active" data-id="item-1">
+              <div class="tabs-item-content">
+                <img src="/img/white-coffee.svg" alt="drinks" />
+                <h4>Белый кофе</h4>
+              </div>
+            </div>
+            <div class="tabs-item" data-id="item-2">
+              <div class="tabs-item-content">
+                <img src="/img/black-coffee.svg" alt="drinks" />
+                <h4>Черный кофе</h4>
+              </div>
+            </div>
+            <div class="tabs-item" data-id="item-3">
+              <div class="tabs-item-content">
+                <img src="/img/tea.svg" alt="drinks" />
+                <h4>Чай</h4>
+              </div>
+            </div>
+            <div class="tabs-item" data-id="item-4">
+              <div class="tabs-item-content">
+                <img src="/img/filter-coffee.svg" alt="drinks" />
+                <h4>Фильтрованный кофе</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="tabs-body">
+            <div class="tabs-body-item tabs-body-item-active" id="item-1">
+              <img src="/img/p-1.jpg" />
+              <h3>Белый кофе</h3>
+              <p>
+                Белый кофе - это напиток, который отличается своим мягким вкусом
+                и нежным ароматом. Он изготавливается из светлообжаренных
+                кофейных зерен, что придает ему более легкий и сладковатый вкус
+                по сравнению с черным кофе. Белый кофе часто содержит меньше
+                кофеина, что делает его идеальным выбором для тех, кто
+                предпочитает более мягкие напитки. Этот кофе отлично подходит
+                для утреннего пробуждения или для расслабления в течение дня,
+                предлагая вам наслаждение каждой чашкой.
+              </p>
+              <p>
+                У нас вы найдете широкий ассортимент свежего белого кофе,
+                который удовлетворит даже самых требовательных гурманов. Наши
+                продукты отличаются высоким качеством, насыщенным вкусом и
+                ароматом, что делает каждую чашку незабываемой.
+              </p>
+            </div>
+            <div class="tabs-body-item" id="item-2">
+              <img src="/img/p-2.jpg" />
+              <h3>Черный кофе</h3>
+              <p>
+                Черный кофе - это классический напиток, который отличается своим
+                насыщенным вкусом и крепким ароматом. Он изготавливается из
+                темнообжаренных кофейных зерен, что придает ему более
+                интенсивный и горьковатый вкус по сравнению с белым кофе. Черный
+                кофе содержит больше кофеина, что делает его идеальным выбором
+                для тех, кто предпочитает более крепкие напитки. Этот кофе
+                отлично подходит для утреннего пробуждения или для бодрости в
+                течение дня, предлагая вам наслаждение каждой чашкой.
+              </p>
+              <p>
+                У нас вы найдете широкий ассортимент свежего черного кофе,
+                который удовлетворит даже самых требовательных гурманов. Наши
+                продукты отличаются высоким качеством, насыщенным вкусом и
+                ароматом, что делает каждую чашку незабываемой.
+              </p>
+            </div>
+            <div class="tabs-body-item" id="item-3">
+              <img src="/img/p-5.jpg" />
+              <h3>Чай</h3>
+              <p>
+                Чай - это напиток, который отличается своим разнообразием вкусов
+                и ароматов. Он изготавливается из листьев чайного куста, которые
+                могут быть обработаны различными способами, что придает чаю
+                уникальные характеристики. Чай может быть черным, зеленым, белым
+                или травяным, каждый из которых имеет свои особенности и
+                преимущества. Этот напиток отлично подходит для расслабления и
+                наслаждения в течение дня, предлагая вам разнообразие вкусов и
+                ароматов в каждой чашке.
+              </p>
+              <p>
+                У нас вы найдете широкий ассортимент свежего чая, который
+                удовлетворит даже самых требовательных гурманов. Наши продукты
+                отличаются высоким качеством, насыщенным вкусом и ароматом, что
+                делает каждую чашку незабываемой.
+              </p>
+            </div>
+            <div class="tabs-body-item" id="item-4">
+              <img src="/img/p-4.jpg" />
+              <h3>Фильтрованный кофе</h3>
+              <p>
+                У нас вы найдете широкий ассортимент свежего фильтрованного
+                кофе, который удовлетворит даже самых требовательных гурманов.
+                Наши продукты отличаются высоким качеством, насыщенным вкусом и
+                ароматом, что делает каждую чашку незабываемой.
+              </p>
+              <p>
+                Фильтрованный кофе - это напиток, который отличается своим
+                чистым вкусом и легким ароматом. Он изготавливается путем
+                пропускания горячей воды через молотые кофейные зерна, что
+                позволяет получить более мягкий и менее горький вкус по
+                сравнению с другими методами приготовления. Фильтрованный кофе
+                часто содержит меньше кофеина, что делает его идеальным выбором
+                для тех, кто предпочитает более легкие напитки. Этот кофе
+                отлично подходит для утреннего пробуждения или для расслабления
+                в течение дня, предлагая вам наслаждение каждой чашкой.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- categories section end -->
+
+    <!-- why us section start  -->
+
+    <section class="why-us" id="why_us">
+      <div class="section-container">
+        <div class="why-us-left-side">
+          <img src="/img/why-us-img.jpg" alt="coffee" />
+        </div>
+
+        <div class="why-us-right-side">
+          <h3>Почему выбирают нас</h3>
+          <ul>
+            <li>Бесплатная доставка</li>
+            <li>Всегда свежие продукты</li>
+            <li>100% гарантия</li>
+            <li>Лучшее качество</li>
+            <li>Большой ассортимент</li>
+          </ul>
+          <a href="#contact" class="btn">
+            <span>Заказать сейчас</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- why us section end  -->
+
+    <!-- review section start  -->
+
+    <section class="reviews" id="reviews">
+      <div class="section-container">
+        <div class="section-title">
+          <div class="section-title-icon">
+            <i class="fa-solid fa-quote-left"></i>
+          </div>
+          <h3>Что говорят клиенты</h3>
+        </div>
+
+        <div class="review-box">
+          <div class="review-swiper swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="swiper-slide-content">
+                  <i class="fa-solid fa-quote-left"></i>
+                  <p>
+                    Кофе просто бомба! Заказывал черный кофе, получил свежий и
+                    ароматный продукт. Доставка была быстрой, а упаковка
+                    надежной. Рекомендую всем любителям кофе!
+                  </p>
+                  <div class="review-title-info">
+                    <h2>Джон Смит</h2>
+                    <h4>Клиент</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide-content">
+                  <i class="fa-solid fa-quote-left"></i>
+                  <p>
+                    Заказывала чай, и он превзошел все мои ожидания! Вкус был
+                    насыщенным, а аромат просто потрясающим. Доставка была
+                    быстрой, и упаковка была очень аккуратной. Я определенно
+                    буду заказывать здесь снова!
+                  </p>
+                  <div class="review-title-info">
+                    <h2>Мария Иванова</h2>
+                    <h4>Клиент</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide-content">
+                  <i class="fa-solid fa-quote-left"></i>
+                  <p>
+                    Я заказал молотый кофе, и он был просто великолепен! Вкус
+                    был насыщенным и богатым, а аромат просто потрясающим.
+                    Доставка была быстрой, и упаковка была надежной. Я
+                    определенно буду заказывать здесь снова!
+                  </p>
+                  <div class="review-title-info">
+                    <h2>Иван Петров</h2>
+                    <h4>Клиент</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-buttons">
+              <div class="fas fa-arrow-left"></div>
+              <div class="fas fa-arrow-right"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section end -->
+
+    <!-- blog section start  -->
+
+    <section class="blog" id="blog">
+      <div class="section-container">
+        <div class="section-title">
+          <div class="section-title-icon">
+            <i class="fa-solid fa-blog"></i>
+          </div>
+          <h3>Наш Блог</h3>
+        </div>
+
+        <div class="blog-items">
+          <div class="blog-item">
+            <div class="blog-item-img">
+              <img src="/img/blog-img-1.jpg" alt="blog-img" />
+            </div>
+            <div class="blog-item-content">
+              <h3>Как правильно молоть кофе?</h3>
+              <div class="blog-item-date">
+                <i class="fa-solid fa-calendar-days"></i>
+                <h4>05 Января 2026</h4>
+              </div>
+              <p>
+                Как правильно молоть кофе? Это важный вопрос для всех любителей
+                кофе, так как правильная степень помола влияет на вкус и аромат
+                напитка.
+              </p>
+              <a href="#contact" class="btn">
+                <span>Заказать сейчас</span>
+              </a>
+            </div>
+          </div>
+          <div class="blog-item">
+            <div class="blog-item-img">
+              <img src="/img/blog-img-2.jpg" alt="blog-img" />
+            </div>
+            <div class="blog-item-content">
+              <h3>Где растет лучший кофе?</h3>
+              <div class="blog-item-date">
+                <i class="fa-solid fa-calendar-days"></i>
+                <h4>08 Января 2026</h4>
+              </div>
+              <p>
+                Лучший кофе растет в регионах с идеальными климатическими
+                условиями, такими как Эфиопия, Колумбия и Бразилия. Эти регионы
+                обеспечивают оптимальную температуру, влажность и высоту
+              </p>
+              <a href="#contact" class="btn">
+                <span>Заказать сейчас</span>
+              </a>
+            </div>
+          </div>
+          <div class="blog-item">
+            <div class="blog-item-img">
+              <img src="/img/blog-img-3.jpg" alt="blog-img" />
+            </div>
+            <div class="blog-item-content">
+              <h3>Как приготовить самый вкусный кофе?</h3>
+              <div class="blog-item-date">
+                <i class="fa-solid fa-calendar-days"></i>
+                <h4>12 Февраля 2026</h4>
+              </div>
+              <p>
+                Чтобы приготовить самый вкусный кофе, важно использовать свежие
+                кофейные зерна, правильную степень помола и оптимальную
+                температуру воды.
+              </p>
+              <a href="#contact" class="btn">
+                <span>Заказать сейчас</span>
+              </a>
+            </div>
+          </div>
+          <div class="blog-item">
+            <div class="blog-item-img">
+              <img src="/img/blog-img-4.jpg" alt="blog-img" />
+            </div>
+            <div class="blog-item-content">
+              <h3>Преимущества черного и зеленого чая</h3>
+              <div class="blog-item-date">
+                <i class="fa-solid fa-calendar-days"></i>
+                <h4>23 Февраля 2026</h4>
+              </div>
+              <p>
+                Черный чай богат антиоксидантами, которые помогают бороться с
+                воспалениями и поддерживают здоровье сердца. Зеленый чай
+                содержит катехины
+              </p>
+              <a href="#contact" class="btn">
+                <span>Заказать сейчас</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- blog section end -->
+
+    <!-- contact section start  -->
+
+    <section class="contact" id="contact">
+      <div class="section-container">
+        <div class="section-title">
+          <div class="section-title-icon">
+            <i class="fa-solid fa-circle-info"></i>
+          </div>
+          <h3>Свяжитесь с нами</h3>
+        </div>
+
+        <div class="contact-info">
+          <div class="contact-info-head">
+            <div class="contact-info-row">
+              <div class="contact-info-icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="contact-info-content">
+                <h4>Позвоните нам</h4>
+                <span>+992 939 999 029</span>
+              </div>
+            </div>
+            <div class="contact-info-row">
+              <div class="contact-info-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="contact-info-content">
+                <h4>Наш адрес</h4>
+                <p>Город Курган-Тюбе</p>
+                <p>Улица Вахдат 198</p>
+                <p>Coffee Shop</p>
+              </div>
+            </div>
+          </div>
+
+          <form
+            action="https://api.web3forms.com/submit"
+            method="POST"
+            class="contact-form"
+          >
+            <h3>Заполните форму</h3>
+            <div class="contact-row">
+              <input
+                type="hidden"
+                name="access_key"
+                value="d7d9f50d-d271-4223-8d50-c64367ea7142"
+              />
+            </div>
+            <div class="contact-row">
+              <input
+                type="email"
+                name="email"
+                placeholder="Электронная почта"
+                required
+                autocomplete="off"
+              />
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="contact-row">
+              <input
+                type="tel"
+                name="phone-number"
+                placeholder="Номер телефона"
+                required
+                autocomplete="off"
+              />
+              <i class="fa-solid fa-phone-flip"></i>
+            </div>
+            <div class="contact-row contact-row-icon">
+              <textarea
+                name="message"
+                placeholder="Сообщение"
+                cols="30"
+                rows="10"
+                required
+              ></textarea>
+              <i class="fa-solid fa-message"></i>
+            </div>
+            <button type="submit" class="btn">
+              <span>Отправить форму</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section end -->
+
+    <!-- footer section start  -->
+
+    <footer class="footer">
+      <div class="section-container">
+        <div class="footer-container">
+          <div class="col">
+            <div class="col-content">
+              <a href="#" class="logo">Coffee Shop</a>
+              <p>
+                У нас вы найдете широкий ассортимент свежего кофе и чая, который
+                удовлетворит даже самых требовательных гурманов. Наши продукты
+                отличаются высоким качеством, насыщенным вкусом и ароматом, что
+                делает каждую чашку незабываемой
+              </p>
+              <div class="social-links">
+                <a href="https://www.instagram.com/somon7650k/" target="_blank">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/" target="_blank">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a
+                  href="https://www.facebook.com/Somon.Backend?locale=ru_RU"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <h3>Быстрые ссылки</h3>
+            <ul class="links">
+              <li>
+                <a href="#home"
+                  ><i class="fa-solid fa-arrow-right"></i>
+                  <span>Главная</span></a
+                >
+              </li>
+              <li>
+                <a href="#products"
+                  ><i class="fa-solid fa-arrow-right"></i>
+                  <span>Продукты</span></a
+                >
+              </li>
+              <li>
+                <a href="#categories"
+                  ><i class="fa-solid fa-arrow-right"></i>
+                  <span>Категории</span></a
+                >
+              </li>
+              <li>
+                <a href="#why_us"
+                  ><i class="fa-solid fa-arrow-right"></i>
+                  <span>Почему мы</span></a
+                >
+              </li>
+              <li>
+                <a href="#reviews"
+                  ><i class="fa-solid fa-arrow-right"></i>
+                  <span>Отзывы</span></a
+                >
+              </li>
+              <li>
+                <a href="#blog"
+                  ><i class="fa-solid fa-arrow-right"></i> <span>Блог</span></a
+                >
+              </li>
+              <li>
+                <a href="#contact"
+                  ><i class="fa-solid fa-arrow-right"></i>
+                  <span>Контакты</span></a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Свяжитесь с нами</h3>
+            <p>Город Курган-Тюбе</p>
+            <p>Улица Вахдат 198</p>
+            <p>Coffee Shop</p>
+            <ul class="links">
+              <li>
+                <a href="tel:+992939999029"
+                  ><i class="fa-solid fa-phone-flip"></i>
+                  <span>(992) 939-99-9029</span></a
+                >
+              </li>
+              <li>
+                <a href="mailto:karimzoda.somon@gmail.com"
+                  ><i class="fa-solid fa-envelope"></i>
+                  <span>coffee-shop@gmail.com</span></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-globe"></i>
+                  <span>coffee-shop.com</span></a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Подписка на новости</h3>
+            <p>
+              Подпишитесь на нашу рассылку, чтобы получать последние новости и
+              специальные предложения от нашего магазина кофе.
+            </p>
+            <form action="">
+              <input
+                type="email"
+                name="email"
+                placeholder="Введите вашу электронную почту"
+                required
+                autocomplete="off"
+              />
+              <button class="btn">
+                <span>Подписаться</span>
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>Разработано Каримзода Сомон &copy; 2026. Все права защищены.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- footer section end -->
+
+    <!-- scroll top button start  -->
+
+    <div class="scroll-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+
+    <!-- scroll top button end -->
+
+    <!-- swiper js link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+
+    <!-- main script js link  -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

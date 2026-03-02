@@ -1,0 +1,20 @@
+/* ===========================
+   DESIGN TOKENS (Neutral)
+   =========================== */
+
+:root {
+  --radius: 8px;
+  --transition: all 0.3s ease;
+
+  /* semantic tokens */
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-text: var(--text);
+  --color-text-2: var(--text-2);
+  --color-muted: var(--muted);
+  --color-muted-2: var(--muted-2);
+  --color-border: var(--border);
+
+  --main-color: var(--brand);
+  --color-accent: var(--accent);
+}
